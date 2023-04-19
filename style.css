@@ -1,0 +1,49 @@
+*{box-sizing: border-box;
+}
+
+:root {
+  
+}
+
+.body{
+  display: inline-block;
+
+}
+
+.div{
+  display: inline-block ;
+  position: relative;
+
+}
+
+.div-1, .div-3{
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(126, 19, 19);
+  background-color: black;
+  border-radius: 50%;
+ 
+}
+
+.div-2{
+  height: 500px;
+  width: 500px;
+  border: 3px solid red;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
+ 
+}
+
+.div-1{
+  position: absolute;
+  left: 520px;
+  top:200px;
+}
+
+.div-3{
+ position: absolute;
+ right: 100px
+}
